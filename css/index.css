@@ -174,6 +174,10 @@ img {
     margin: 0 5%;
   }
 }
+form {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
 .main-navigation {
   width: 100%;
   height: 90px;
@@ -347,6 +351,40 @@ img {
   }
 }
 .home .content-pick .destination .btn:hover {
+  background: #FFFFFF;
+  color: #17A2B8;
+}
+.home form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 2%;
+}
+.home form .btn {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 45px;
+  background-color: #17A2B8;
+  color: #FFFFFF;
+  border: 1px solid #C0C0C0;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .home form .btn {
+    width: 100%;
+  }
+}
+.home form .btn:hover {
   background: #FFFFFF;
   color: #17A2B8;
 }
